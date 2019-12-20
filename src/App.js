@@ -11,7 +11,6 @@ const App = () => {
     <Main>
       <Header />
       <Navigation />
-      <hr />
       <Route 
       exact
       path='/'

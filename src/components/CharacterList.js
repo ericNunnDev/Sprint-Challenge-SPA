@@ -21,7 +21,10 @@ const CharacterList = props => {
   }, []);
 
   return (
-    <div className='character-list container'>
+    <div className='character-list container center-align'>
+      <iframe src='https://giphy.com/embed/LpkYElMLodFXjHyxi4' width='480' height='360' frameBorder='0' />
+      <br />
+      <br />
       <SearchForm chars={chars} />
     </div>
   );
