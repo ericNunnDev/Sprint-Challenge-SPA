@@ -5,7 +5,7 @@ export const WelcomePage = () => {
   return (
     <section className='welcome-page'>
       <header>
-        <h2>Welcome to the ultimate fan site!</h2>
+        <h2 className='center-align'>Welcome to the ultimate fan site!</h2>
         <img className='responsive-img' src={img} alt='Rick and Morty World' />
       </header>
     </section>
