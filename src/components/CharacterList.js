@@ -21,7 +21,7 @@ const CharacterList = props => {
   }, []);
 
   return (
-    <div className='character-list'>
+    <div className='character-list container'>
       <SearchForm chars={chars} />
     </div>
   );

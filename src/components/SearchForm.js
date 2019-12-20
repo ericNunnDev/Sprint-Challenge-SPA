@@ -32,7 +32,7 @@ const SearchForm = () => {
          onChange={handleChange}
          name='character'
        />
-       <button type='submit'>Search</button>
+       <button className='btn waves-effect waves-light' type='submit'>Search</button>
      </form>
      <div>
      {results.map(char => (

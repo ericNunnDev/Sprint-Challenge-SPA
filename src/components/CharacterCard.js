@@ -4,11 +4,13 @@ import styled from 'styled-components';
 const CharacterCard = props => {
   return (
     <CharacterWrapper key={props.char.id}>
+      <div className='center-align'>
       <Avatar src={props.char.image} />
       <h2>{props.char.name}</h2>
       <p><strong>Species: </strong>{props.char.species}</p>
       <p><strong>Status: </strong>{props.char.status}</p>
       <p><strong>Location: </strong>{props.char.location.name}</p>
+      </div>
     </CharacterWrapper>
   );
 }
