@@ -26,17 +26,16 @@ const SearchForm = () => {
     <section className='search-form'>
      <form className='col s12'>
       <div className='input-field col s6'>
-        <i className='fas fa-search fa-2x prefix' />
+        <i className='fas fa-search prefix' />
         <textarea
           id='character'
           className='materialize-textarea'
           type='text'
-          placeholder='Search Characters'
           value={search}
           onChange={handleChange}
           name='character'
         />
-        <label htmlFor='character' />
+        <label htmlFor='character'>Search Characters</label>
       </div>
      </form>
      <div>
