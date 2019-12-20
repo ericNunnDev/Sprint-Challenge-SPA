@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client-Side Routing can be much faster than Server-Side, as Client-Side Routing allows us to update and re-render only part of a webpage, and everything else is left alone. Whereas before, every change made to a webpage resulted in having to make a request to a server, and fetching an entire page of content.
 
 ## Project Set Up
 
