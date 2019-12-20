@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import CharacterCard from './CharacterCard';
 import axios from 'axios';
 
@@ -23,16 +23,21 @@ const SearchForm = () => {
   };
  
   return (
-    <section className="search-form">
-     <form>
-       <input
-         type='text'
-         placeholder='Search Characters'
-         value={search}
-         onChange={handleChange}
-         name='character'
-       />
-       <button className='btn waves-effect waves-light green darken-2' type='submit'>Search</button>
+    <section className='search-form'>
+     <form className='col s12'>
+      <div className='input-field col s6'>
+        <i className='fas fa-search fa-2x prefix' />
+        <textarea
+          id='character'
+          className='materialize-textarea'
+          type='text'
+          placeholder='Search Characters'
+          value={search}
+          onChange={handleChange}
+          name='character'
+        />
+        <label htmlFor='character' />
+      </div>
      </form>
      <div>
      {results.map(char => (
