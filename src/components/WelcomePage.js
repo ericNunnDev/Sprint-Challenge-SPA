@@ -1,16 +1,15 @@
-import React from "react";
+import React from 'react';
+import img from '../images/rick-morty-bg.jpg';
 
-export default function WelcomePage() {
+export const WelcomePage = () => {
   return (
-    <section className="welcome-page">
+    <section className='welcome-page'>
       <header>
-        <h1>Welcome to the ultimate fan site!</h1>
-        <img
-          className="main-img"
-          src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
-          alt="rick"
-        />
+        <h2 className='center-align'>Welcome to the ultimate fan site!</h2>
+        <img className='responsive-img' src={img} alt='Rick and Morty World' />
       </header>
     </section>
   );
 }
+
+export default WelcomePage;
